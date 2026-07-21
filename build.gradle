@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'collections.practice'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
